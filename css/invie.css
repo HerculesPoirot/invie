@@ -78,7 +78,11 @@ body{
 	padding: 10px;
 	margin: 20px;
 	border: 2px solid #1f313c;
+<<<<<<< HEAD
 	border-radius: 10px;
+=======
+	border-radius: 20px;
+>>>>>>> 36f5813... Agregando estilos
 }
 
 .derecha{
@@ -99,6 +103,7 @@ body{
 
 .contenedor-guitarra-b{
   margin-left: 370px;
+<<<<<<< HEAD
 }
 
 .footer{
@@ -116,4 +121,6 @@ body{
 .contacto a{
 	color: white;
 	text-decoration: none;
+=======
+>>>>>>> 36f5813... Agregando estilos
 }
