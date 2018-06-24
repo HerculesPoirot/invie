@@ -23,7 +23,7 @@
        <div class="container">
        	<h1 class="titulo">Guitarras inviesibles</h1>
 		<h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3>
-		<button>Conoce más</button>
+		<button class="button">Conoce más</button>
        </div>
 		
 	</section>
@@ -61,6 +61,8 @@
 				<a href="mailto:caracol@gmail.com"><strong>E-mail</strong>invie@platzi.com</a>
 			</div>
 		<form class="formulario">
+
+		<div class="col1">
 			<label for="nombre">Nombre</label>
 			<input type="text" required id="nombre">
 			<label for="email">email</label>
@@ -76,7 +78,7 @@
             </div>
             <div class="intereses">
             	<label for="cotizacion">
-            		<input type="checkbox" id="cotizacion" name="intereses" value="cotizacion">Cotización
+            		<input type="checkbox" checked="" id="cotizacion" name="intereses" value="cotizacion">Cotización
             	</label>
             	<label for="reclamos">
             		<input type="checkbox" id="reclamos" name="intereses" value="reclamo">Reclamos
@@ -88,11 +90,12 @@
             		<input type="checkbox" id="otros" name="intereses" value="otros">Otros
             	</label>
             </div>
-            <div>
+         </div>
+
+            <div class="col2">
             	<label for="comentarios">Comentarios</label>
             	<textarea id="comentarios" cols="30" rows="7" name="comentarios"></textarea>
-            	<input type="submit" value="Enviar">
-            	
+            	<input type="submit" value="Enviar" class="button">   	
             </div>
 		</form>
 		</div>
